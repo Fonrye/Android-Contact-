@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal">
+<!--    修改联系人-->
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:id="@+id/contact_no"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:id="@+id/contact_name"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:id="@+id/contact_phonenumber"
+        android:textSize="18sp"/>
+
+</LinearLayout>
